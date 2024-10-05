@@ -8,7 +8,7 @@ import {
     Text,
 } from "@chakra-ui/react";
 import useGenres, { Genre } from "../hooks/useGenres";
-import getCroppedImageUrl from "../services/getCroppedImageUrl";
+import getCroppedImageUrl from "../services/image-url";
 
 interface Props {
     onSelectGenre: (genre: Genre) => void;
